@@ -8,6 +8,6 @@ Proof of concept test repo for working with git-crypt
     git-crypt export-key /path/to/new/crypt.key
     
     echo "Secrets!" > secrets.txt
-    echo "secrets.txt filter=git-crypt diff=git-crypt" > .gitaccess
+    echo "secrets.txt filter=git-crypt diff=git-crypt" > .gitattributes
     
 ```
